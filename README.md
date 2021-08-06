@@ -5,7 +5,7 @@ Simplified map marker clustering API based on Naver Map API
 
 화면에 표시된 지도 영역을 일정하게 분할하여 분할 영역 별로 마커 개수 및 좌표의 평균 값을 계산해 클러스터링 마커를 표시합니다. 
 
-
+![image](https://user-images.githubusercontent.com/48939257/128468363-c6d0ad38-0d25-47fa-a42d-9a5a1c15d799.png)
 
 
 * * *
