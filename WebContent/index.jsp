@@ -27,10 +27,10 @@
     window.onload = function(){
 	   makeMarkers(data);
 	   
-		// ╦╤д© е╛╥╞╫╨ем╦╣ ╟╢ц╪ ╩Щ╪╨
- 		cmc = new CustomMarkerCluster({
-		    divX: 5,	// ╟║╥н╥н Ё╙╢╜ х╜╦И д╜
-		    divY: 3,	// ╪╪╥н╥н Ё╙╢╜ х╜╦И д╜
+		// К╖┬Л╩╓ М│╢К÷╛Л┼╓М└╟К╖│ Й╟²Л╡╢ Л┐²Л└╠
+ 		cmc = new SimpleCluster({
+		    divX: 5,	// Й╟─К║°К║° К┌≤К┬▄ М≥■К╘╢ Л╧╦
+		    divY: 3,	// Л└╦К║°К║° К┌≤К┬▄ М≥■К╘╢ Л╧╦
 		    maxZoom: 17
 		})  
 	   
