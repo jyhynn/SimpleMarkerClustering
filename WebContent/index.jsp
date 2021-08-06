@@ -6,8 +6,7 @@
 <meta charset="EUC-KR">
 <title>armton Simple Clustering</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=of32bikdmk"></script>
-<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=of32bikdmk"></script>
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=yourId"></script>
 <script type="text/javascript" src="./js/armton.simpleClustering.js"></script>
 <script type="text/javascript" src="./js/lamps.js"></script>
 <link rel="stylesheet" type="text/css" href="./css/armton.simpleClustering.css">
