@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.cluster-marker{
+	position: absolute;
+    left: 50%;
+    top: -25px;
+    padding: 0 2px;
+    height: 33px;
+    line-height: 18px;
+    min-width: 30px;
+    background: #0475f4;
+    border-radius: 22px;
+    border: 2px solid #0475f4;
+    font-size: 13px;
+    color: #1e3658;
+    font-weight: 700;
+    transform: translateX(-50%);
+    letter-spacing: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cluster-marker:before { 
+	content: ''; 
+	position: absolute;left: 50%; 
+	top:29px; 
+	transform: translateX(-50%); 
+	border:13.5px solid transparent; 
+	border-top-color:#0475f4; 
+}
+
+.cluster-marker .cluster-inner{
+	background-color: #fff;
+    height: 5px;
+    line-height: 0px;
+    border-radius: 20px;
+    border: 9px solid #fff;
+}
+.cluster-marker .total {
+	margin-top: 2px;
+}
