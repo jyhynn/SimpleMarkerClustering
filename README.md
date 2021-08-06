@@ -56,14 +56,17 @@ window.onload = function(){
 2. 생성 시 ```divX```, ```divY```, ```maxZoom```에 원하는 값을 입력합니다.  
 3. ```idle``` 함수에서 클러스터링이 적용되고 해제될 시점을 설정합니다. 
 
-    
+### 소스 안내    
+* SimpleMarkerClustering/WebContent/css/armton.simpleClustering.css - 클러스터링 마커 샘플 아이콘(스타일)
+* SimpleMarkerClustering/WebContent/js/lamps.js - 샘플 마커(1303개)
 
+------------------
 #### 붙이는 말
 
 Naver 개발자 센터에서는 GitHub 링크를 통하여 MarkerClustering api를 제공하고 있습니다. 
 - 샘플 링크: https://navermaps.github.io/maps.js.ncp/docs/tutorial-marker-cluster.example.html
 - 샘플 소스: https://github.com/navermaps/marker-tools.js/tree/master/marker-clustering
-- 
+
 하지만 지도에 표시될 마커의 개수가 많고, 모든 마커를 지도 상에 필수로 표시해야 하는 경우 
 공개된 클러스터링 API를 쓰면 성능이 매우 떨어지는 현상이 있어서 만들게 되었습니다. 
 성능저하의 원인으로는 1,000개 이상의 마커, map에 할당되는 idle 함수와 클러스터링의 idle 함수가 동시에 함께 돌아가면서 생기는 것으로 파악되고 있습니다. 
