@@ -23,22 +23,22 @@
         center: new naver.maps.LatLng(37.46875301655531, 126.62468593028933)
     });
   
-   	var cmc = null;
+   	var sc = null;
     window.onload = function(){
 	   makeMarkers(data);
 	   
 		// 마커 클러스터링 객체 생성
- 		cmc = new SimpleCluster({
+ 		sc = new SimpleCluster({
 		    divX: 5,	// 가로로 나눌 화면 칸
 		    divY: 3,	// 세로로 나눌 화면 칸
 		    maxZoom: 17
 		})  
 	   
 	   naver.maps.Event.addListener(map, 'idle', function() {
-			if(map.getZoom() < cmc.getMaxZoom()){
-		    	setTimeout(cmc.doMarkerClustering(), 1000);
+			if(map.getZoom() < sc.getMaxZoom()){
+		    	setTimeout(sc.doMarkerClustering(), 1000);
 	 		}else{
-	 			cmc.clearClusters();
+	 			sc.clearClusters();
 			    setTimeout(updateMarkers(map, markers), 500);
 	 		}
 		});
