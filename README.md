@@ -63,6 +63,8 @@ window.onload = function(){
 ------------------
 #### 붙이는 말
 
+이 소스는 jQuery 구문을 포함하고 있습니다.
+
 Naver 개발자 센터에서는 GitHub 링크를 통하여 MarkerClustering api를 제공하고 있습니다. 
 - 샘플 링크: https://navermaps.github.io/maps.js.ncp/docs/tutorial-marker-cluster.example.html
 - 샘플 소스: https://github.com/navermaps/marker-tools.js/tree/master/marker-clustering
