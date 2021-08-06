@@ -2,7 +2,7 @@
  * armton.SimpleCluster - armton.SimpleCluster is a simple marker clustering library for Naver Map API
  * Author: JiHyun <letsjamm@naver.com> 
  * Version: v1.0.0
- * Url: https://xdsoft.net/jodit/
+ * Url: https://velog.io/@armton/
  * License(s): MIT
  * 
  * Custom Marker Clustering
@@ -26,7 +26,7 @@ var ClusterArrObj = function(){
  * 클러스터 마커 기본 옵션 및 클러스터 객체 생성
  * @param {Object} options 사용자 지정 옵션
 **/
-var CustomMarkerCluster = function(options){
+var SimpleCluster = function(options){
 	this.DEFAULT_OPTIONS = {
 		map: map,			// {naver.map}
 		markers: markers,	// {naver.map.Maker[]}
@@ -46,7 +46,7 @@ var _clusterObj = null;
  * 클러스터링 관련 함수.
 **/
 
-CustomMarkerCluster.prototype = {
+SimpleCluster.prototype = {
 	constructor: _clusterObj,
 	/**
 	 * 클러스터 초기화.
